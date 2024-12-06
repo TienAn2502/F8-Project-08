@@ -1,8 +1,20 @@
 .top-bar {
   display: flex;
   padding: 30px 50px;
-  background: olive;
+  align-items: center;
   .logo {
+    display: flex;
+    gap: 0 14px;
+    h1 {
+      color: $primary-color-black-6;
+
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 32px; /* 145.455% */
+    }
+  }
+
+  .navbar {
     display: flex;
   }
 }

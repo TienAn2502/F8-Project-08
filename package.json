@@ -6,7 +6,8 @@
   "scripts": {
     "start": "npm run serve",
     "serve": "json-server --watch ./data/db.json -m ./node_modules/json-server-auth --port 3000",
-    "serve-auth": "node server.js"
+    "serve-auth": "node server.js",
+    "sass": "sass scss:assets/css -w"
   },
   "dependencies": {
     "json-server": "^0.17.4",
