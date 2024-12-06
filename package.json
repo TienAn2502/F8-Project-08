@@ -1,0 +1,16 @@
+{
+  "name": "my-json-server",
+  "version": "1.0.0",
+  "description": "A simple JSON server with authentication",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "json-server --watch ./data/db.json -m ./node_modules/json-server-auth --port 3000",
+    "serve-auth": "node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0",
+    "jwt-decode": "^3.1.2"
+  }
+}
